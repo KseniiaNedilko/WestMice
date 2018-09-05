@@ -1,0 +1,102 @@
+body {
+    width: 100%;
+
+}
+header {
+     font-family: 'Roboto';
+     margin: 0 auto;
+     width: 1000px;
+     height: 62px;
+     
+}
+.logo {
+    float: left;
+   display: inline-block;
+}
+.logo .title {
+    float: left;
+margin: 28px 0 0 20px;
+}
+#square {
+    float: left;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background: #C4C4C4;
+    margin-top: 17px;
+}
+.logo p {
+     display: inline-block;
+     font-family: 'Roboto';
+}
+ul {
+    margin-top: 33px;
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+}
+.menu li {
+    margin-right: 19px;
+    text-decoration: none;
+    display: inline-block;
+}
+article {
+    height: 1000px;
+    display: inline-block;
+}
+.article-left {
+    padding-left: 4px;
+    margin-top: 170px;
+}
+.article-right {
+    position: relative;
+}
+.photo2{
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+.photo1 {
+    position: absolute;
+    right: 0;   
+}
+.asideLeft p {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+h2 {
+    display: inline-block;
+    font-weight: Bold;
+    font-family: 'Rubik';
+    font-size: 54px;
+    text-align: left;
+}
+.article-right2 {
+    position: relative;
+    background-image: url(Photo3.png);
+    height: 645px;
+}
+
+
+.square-on-photo {
+    position: absolute;  
+    width: 450px;
+    height: 420px;
+    background-color: white;
+    margin-top: 110px;
+    margin-left: 150px;
+}
+.square-on-photo>h3 {
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 55px
+}
+.square-on-photo>p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin-left: 87px;
+    text-align: inherit;
+}
